@@ -27,7 +27,7 @@ Users can check and see the weather outlook for multiple cities in real time.
 
 ## Link 
 
-https://nllano777.github.io/TheWeather/
+https://nllano777.github.io/SunnyInKC/
 
 ---
 
