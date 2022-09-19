@@ -33,7 +33,7 @@ https://nllano777.github.io/SunnyInKC/
 
 ## Repository
 
-https://github.com/Nllano777/TheWeather
+https://github.com/Nllano777/SunnyInKC
 
 ---
 
