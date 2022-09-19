@@ -11,7 +11,7 @@ var APIKey = "a7cef51d92248879613b36f93ac710ed";
 // Create a fetch
 function getWeatherInfo() {
     var rawCity = document.getElementById("rawcity").value;
-    var url = "http://api.openweathermap.org/data/2.5/weather?q=" + rawCity + "&appid=a7cef51d92248879613b36f93ac710ed";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q=" + rawCity + "&appid=a7cef51d92248879613b36f93ac710ed";
     fetch(url)
         .then(response => response.json())
         .then(data => {
@@ -21,7 +21,7 @@ function getWeatherInfo() {
             let lat = data.coord.lat;
             let lon = data.coord.lon;
 
-            fetch("http://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=current,hourly,minutely,alerts&appid=" + APIKey)
+            fetch("https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=current,hourly,minutely,alerts&appid=" + APIKey)
                 .then(response => response.json())
                 .then(function (response) {
                     console.log(response)
